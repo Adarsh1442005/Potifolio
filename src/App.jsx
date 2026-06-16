@@ -20,44 +20,33 @@ export default function App() {
   return (
     <div className="font-mono bg-black text-green-400 min-h-screen scroll-smooth">
       {/* Header with Image + Links */}
-      <header className="flex items-center justify-between px-6 py-4 border-b border-green-400">
-        {/* Image top-left */}
-        <div className="flex items-center gap-4">
-          <img
-            src={photo}
-            alt="Adarsh Pandey"
-            className="w-20 h-20 rounded-full border-2 border-green-400 shadow-lg hover:shadow-green-500 transition"
-          />
-          <h1 className="text-green-400 font-bold text-2xl flex flex-col space-y-2">
-  <span className="text-3xl tracking-wide">Adarsh Pandey</span>
-  
-  <span className="text-green-300 text-lg text-blue-500">
-    Gen AI Exchange Hackathon 2025
-  </span>
-  
-  <span className="text-green-300 text-lg text-yellow-500">
-    Intern — Def Space Summer Internship at Bharatiya Space Research Center (ISRO)
-    </span>
-   <span className ="text-green-300 text-lg text-red-500">in Artificial Intelligence and Digital Forensic in Space and Defence</span> 
-  
-  
-  <span className="text-green-300 text-lg">
-     Java Developer | Spring AI | Spring Boot
-  </span>
-</h1>
+     <header className="flex flex-col md:flex-row items-center justify-between px-6 py-4 border-b border-green-400 space-y-4 md:space-y-0">
+  {/* Image + Name */}
+  <div className="flex items-center gap-4">
+    <img
+      src={photo}
+      alt="Adarsh Pandey"
+      className="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-green-400 shadow-lg hover:shadow-green-500 transition"
+    />
+    <h1 className="text-green-400 font-bold text-xl md:text-2xl flex flex-col space-y-2">
+      <span className="text-2xl md:text-3xl tracking-wide">Adarsh Pandey</span>
+      <span className="text-blue-500 text-sm md:text-lg">Gen AI Exchange Hackathon 2025</span>
+      <span className="text-yellow-500 text-sm md:text-lg"> Intern — Def Space Summer Internship at Bharatiya Space Research ISRO</span>
+       <span className="text-yellow-500 text-sm md:text-lg">in Artificial Intelligence and Digital Forensic in Space and Defence</span>
+      <span className="text-green-500 text-sm md:text-lg">Java Developer | Spring AI | Spring Boot</span>
+    </h1>
+  </div>
 
-        </div>
-
-        {/* Quick Links + Resume */}
-        <nav className="space-x-6">
-          <a href="https://github.com/adarsh" target="_blank" rel="noreferrer" className="hover:text-cyan-400">GitHub</a>
-          <a href="https://linkedin.com/in/adarsh" target="_blank" rel="noreferrer" className="hover:text-cyan-400">LinkedIn</a>
-          <a href="https://github.com/adarsh/dsa-sheet" target="_blank" rel="noreferrer" className="hover:text-cyan-400">Data-Structure Sheet</a>
-          <a href="/resume.pdf" download="Adarsh_Pandey_Resume.pdf" className="px-4 py-2 bg-green-400 text-black rounded hover:bg-green-300">
-            Download Resume
-          </a>
-        </nav>
-      </header>
+  {/* Links */}
+  <nav className="flex flex-wrap justify-center md:justify-end gap-4">
+    <a href="https://github.com/adarsh" className="hover:text-cyan-400">GitHub</a>
+    <a href="https://linkedin.com/in/adarsh" className="hover:text-cyan-400">LinkedIn</a>
+    <a href="https://github.com/adarsh/dsa-sheet" className="hover:text-cyan-400">DSA Sheet</a>
+    <a href="/resume.pdf" download="Adarsh_Pandey_Resume.pdf" className="px-4 py-2 bg-green-400 text-black rounded hover:bg-green-300">
+      Resume
+    </a>
+  </nav>
+</header>
 
       {/* Professional Summary */}
       <section id="summary" className="py-16 px-6 max-w-4xl mx-auto text-center">
