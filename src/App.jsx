@@ -49,7 +49,7 @@ export default function App() {
         data-aos="fade-up"
         data-aos-delay="200"
       >
-        Adarsh Pandey
+        Adarsh Pandey | Birla Institute of Technology Mesra Ranchi |  Computer Science and Enginerring
       </span>
       <span
         className="text-blue-500 text-sm sm:text-lg"
@@ -112,7 +112,7 @@ export default function App() {
     data-aos="fade-up"
     data-aos-delay="300"
   >
-    Apiring Software Enginerring and Experience in training AI Models,
+    Aspiring Software Enginerring and Experience in training AI Models,
     Currently Pursuing Internship at Bharatiya Space Research Center (ISRO)
     in Artificial Intelligence and Digital Forensic in defence and Space.
     Have Build a remarkable Prototype in Gen AI Exchange Hackathon 2025 of
