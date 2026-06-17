@@ -90,7 +90,7 @@ export default function App() {
   >
     <a href="https://github.com/Adarsh1442005" className="hover:text-cyan-400">GitHub</a>
     <a href="https://www.linkedin.com/in/aadi-8343272a7/" className="hover:text-cyan-400">LinkedIn</a>
-    <a href="https://github.com/Adarsh1442005/Dsahttps://github.com/Adarsh1442005/DataStructure" className="hover:text-cyan-400">DSA Sheet</a>
+    <a href="https://github.com/Adarsh1442005/DataStructure" className="hover:text-cyan-400">DSA Sheet</a>
     <a href={resume} download="Adarsh_Pandey_Resume.pdf" className="px-4 py-2 bg-green-400 text-black rounded hover:bg-green-300">
       Resume
     </a>
