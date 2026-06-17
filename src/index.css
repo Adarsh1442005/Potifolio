@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@keyframes glanceWave {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-6px); }
+  50% { transform: translateY(3px); }
+  75% { transform: translateY(-3px); }
+}
+
+.animate-glance {
+  animation: glanceWave 2.5s ease-in-out infinite;
+}
+
 
 /* :root {
   --text: #6b6375;
